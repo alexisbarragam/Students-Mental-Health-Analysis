@@ -1,4 +1,4 @@
-# analyze.py
+# analyze_data.py
 import pandas as pd
 from sqlalchemy import create_engine, text
 
@@ -13,7 +13,6 @@ DB_NAME = 'students_mental_health'
 
 CONNECTION_STRING = f'postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}'
 
-# --- NEW SQL QUERY TAILORED FOR THE NEW DATASET ---
 # This query calculates the percentage of students with mental health issues
 # grouped by their year of study.
 ANALYSIS_QUERY = """
