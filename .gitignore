@@ -1,0 +1,18 @@
+# Virtual Environment
+# Ignores the venv folder, which is large and machine-specific
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editor/IDE configuration files
+.vscode/
+.idea/
+
+# Local database files (good practice)
+*.db
+*.sqlite3
