@@ -10,7 +10,7 @@ def clean_student_data(path):
     try:
         df = pd.read_csv(path)
 
-        # --- NEW LINE ADDED HERE TO STANDARDIZE THE DATA ---
+        
         # Capitalizes the first letter of the 'study_year' column (e.g., 'year 1' -> 'Year 1')
         df['Your current year of Study'] = df['Your current year of Study'].str.capitalize()
         # --------------------------------------------------
